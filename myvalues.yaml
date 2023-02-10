@@ -10,9 +10,9 @@ nexus:
        -Djava.util.prefs.userRoot=/nexus-data/javaprefs
        -Dnexus.licenseFile=/etc/nexus-license/license.lic
        -Dnexus.datastore.enabled=true
-       -Dnexus.datastore.nexus.jdbcUrl=jdbc:postgresql://localhost:5432/postjabdb
-       -Dnexus.datastore.nexus.username=postjab
-       -Dnexus.datastore.nexus.password=postjabpass
+       -Dnexus.datastore.nexus.jdbcUrl=jdbc:postgresql://nexus.cgwavzr0vxsf.us-east-1.rds.amazonaws.com/postgres
+       -Dnexus.datastore.nexus.username=postgres
+       -Dnexus.datastore.nexus.password=melijab2023
    - name: NEXUS_SECURITY_RANDOMPASSWORD
      value: "true"
 # # To use an additional secret, set enable to true and add data

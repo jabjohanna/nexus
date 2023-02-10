@@ -26,9 +26,9 @@
               ports:
                 - containerPort: 8081
               volumeMounts:
-                - name: nexus-data
-                  mountPath: /nexus-data
+                - name: nexus-data02
+                  mountPath: /nexus-data02
           volumes:
-            - name: nexus-data
+            - name: nexus-data02
               emptyDir: {}
 
